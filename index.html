@@ -12,5 +12,20 @@
 		<!-- JS -->
 		<script defer src="index.js"></script>
 	</head>
-	<body></body>
+	<body>
+		<form>
+			<h1>Temperature Converter</h1>
+			<input type="number" id="textBox" value="0" />
+
+			<input type="radio" id="toFahrenheit" name="unit" />
+			<label for="toFahrenheit">Celsius to Fahrenheit</label>
+
+			<input type="radio" id="toCelsius" name="unit" />
+			<label for="toCelsius">Fahrenheit to Celsius</label>
+
+			<button type="submit">Convert</button>
+
+			<p id="result"></p>
+		</form>
+	</body>
 </html>

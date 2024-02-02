@@ -14,7 +14,7 @@ body {
 form {
 	background-color: #fff;
 	margin: 0 auto;
-	padding: 30px;
+	padding: 3em;
 	border-radius: 10px;
 	max-width: 350px;
 	box-shadow: 5px 5px 15px rgba(27, 26, 26, 0.317);
@@ -29,13 +29,15 @@ h1 {
 	color: #00000088;
 }
 #textBox {
-	padding: 10px;
-	margin: 20px auto;
+	padding: 0.4em;
+	margin-top: 1.5em;
+	margin-bottom: 0.8em;
 	border: none;
 	border-radius: 5px;
 	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
 	width: 150px;
 	font-size: 1.5rem;
+	color: #0000009b;
 	text-align: center;
 }
 
@@ -44,15 +46,20 @@ label {
 	color: #000000ab;
 }
 
+.input-type {
+	margin: 1em auto;
+}
+
 button {
-	padding: 10px 20px;
-	margin: 20px auto;
+	padding: 0.5em 1.5em;
+	margin: 1.5em auto;
 	border: none;
 	border-radius: 5px;
 	background-color: #ffe59e;
 	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
 	color: #00000088;
 	font-size: 1.2rem;
+	font-weight: 600;
 	cursor: pointer;
 }
 
